@@ -1,0 +1,22 @@
+services:
+  website:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+
+    container_name: cygnet-website
+
+    working_dir: /app/astro
+
+    ports:
+      - "4321:4321"
+
+    volumes:
+      - .:/app
+      - node_modules:/app/astro/node_modules
+
+    stdin_open: true
+    tty: true
+
+volumes:
+  node_modules:
