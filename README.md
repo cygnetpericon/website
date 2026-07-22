@@ -1,29 +1,37 @@
 # Cygnet Website
 
-This repository contains the source code, content, branding assets, and documentation for the official Cygnet Pericon website.
+The official website and knowledge base for the CygnetONE Platform.
+
+## Repository Structure
+
+assets/
+content/
+docs/
+astro/
+docker/
 
 ## Philosophy
 
-Content First.
+Knowledge Once. Execution Everywhere.
 
-Every article, product page, white paper, and case study begins as Markdown.
+## Website Architecture
 
-The website is generated from these Markdown files to ensure a single source of truth.
+The website follows a content-first architecture.
 
-## Structure
+Markdown documents represent the primary source of truth.
 
-content/
-    Product pages
-    White papers
-    Articles
+Astro provides presentation.
 
-assets/
-    Logos
-    Diagrams
-    Icons
+Git provides version control.
 
-docs/
-    Internal documentation
+Docker provides deployment.
 
-src/
-    Website source code
+## Development
+
+...
+
+## Deployment
+
+...
+
+## License

@@ -141,3 +141,28 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# macOS
+.DS_Store
+
+# Linux editor backups
+*~
+*.swp
+*.swo
+
+# JetBrains IDEs
+.idea/
+
+# VS Code (keep if you don't intend to share workspace settings)
+.vscode/
+
+# Astro
+astro/dist/
+astro/.astro/
+
+# Python (for future utility scripts)
+__pycache__/
+*.py[cod]
+
+# Generated thumbnails (if ever used)
+Thumbs.db
